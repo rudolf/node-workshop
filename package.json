@@ -1,0 +1,27 @@
+{
+  "name": "node-workshop",
+  "version": "0.0.1",
+  "description": "Intro to Node.js Workshop",
+  "main": "",
+  "scripts": {
+    "test": "mocha test/api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/edgecampus/node-workshop.git"
+  },
+  "author": "Rudolf Meijering <rudolf@ed.ge>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edgecampus/node-workshop/issues"
+  },
+  "devDependencies": {
+    "http-perf": "0.0.4",
+    "mocha": "~1.18.2",
+    "supertest": "~0.10.0"
+  },
+  "dependencies": {
+    "superagent": "~0.17.0",
+    "async": "~0.7.0"
+  }
+}
